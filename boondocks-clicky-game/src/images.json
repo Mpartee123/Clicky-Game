@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Huey Freeman",
+    "image": "../img/huey-breaking-bad.png"
+  },
+  {
+    "id": 2,
+    "name": "Riley Freeman",
+    "image": "../img/riley.png"
+  }
+]
