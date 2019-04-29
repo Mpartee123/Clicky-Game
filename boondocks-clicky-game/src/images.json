@@ -1,12 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Huey Freeman",
-    "image": "../img/huey-breaking-bad.png"
+    "name": "Huey Freeman Breaking Bad",
+    "image": "./img/huey-breaking-bad.png"
   },
   {
     "id": 2,
     "name": "Riley Freeman",
-    "image": "../img/riley.png"
+    "image": "./img/riley.png"
+  },
+  {
+    "id": 3,
+    "name": "Cindy Mc Pherson",
+    "image": "./img/cindy-gangsta.png"
+  },
+  {
+    "id": 4,
+    "name": "Cindy Mc Pherson Gangsta",
+    "image": "./img/cindy-mc-phearson.png"
+  },
+  {
+    "id": 5,
+    "name": "Gin Rummy",
+    "image": "./img/gin-rummy.png"
+  },
+  {
+    "id": 6,
+    "name": "Grandad Pointing",
+    "image": "./img/grandad-point.png"
+  },
+  {
+    "id": 7,
+    "name": "Jazmine Dubois",
+    "image": "./img/jazmine-dubois.png"
+  },
+  {
+    "id": 8,
+    "name": "Luna",
+    "image": "./img/luna.png"
+  },
+  {
+    "id": 9,
+    "name": "Riley Freeman Gangsta",
+    "image": "./img/riley-gangsta.png"
+  },
+  {
+    "id": 10,
+    "name": "Stinkmeaner",
+    "image": "./img/stinkmeaner.png"
+  },
+  {
+    "id": 11,
+    "name": "Huey Freeman",
+    "image": "./img/huey-ripped-shirt.png"
+  },
+  {
+    "id": 12,
+    "name": "Uncle Ruckus",
+    "image": "./img/uncle-ruckus.png"
   }
 ]
