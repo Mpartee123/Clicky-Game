@@ -12,6 +12,26 @@ class App extends Component {
         friends
     };
 
+     shuffle=(array)=> {
+
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    };
+
     removeFriend = id => {
         //add score to state above, get score from state, add one to it, then use it to setstate below
 
@@ -34,7 +54,7 @@ class App extends Component {
             newFriends.push(newFriend);
         });
         //Below this comment, shuffle the newFriends array
-
+            this.shuffle(newFriends);
         // Set this.state.friends equal to the new friends array
         this.setState({
             friends: newFriends
