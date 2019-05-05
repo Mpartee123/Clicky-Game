@@ -2,7 +2,7 @@
   "name": "boondocks-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mpartee123.github.io/Clicky-Game/boondocks-clicky-game",
+  "homepage": "https://mpartee123.github.io/Clicky-Game/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -16,6 +16,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": "react-app"
